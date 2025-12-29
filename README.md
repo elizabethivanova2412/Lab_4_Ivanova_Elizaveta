@@ -125,34 +125,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-Matrix A (3x2):
- 11  12 
- 21  22 
- 31  32 
+**Результат выполнения**
 
-Matrix B (2x3):
- 11  12  13 
- 21  22  23 
-
-Transpose of A (2x3):
- 11  21  31 
- 12  22  32 
-
-A + C (where C is all 5s):
- 16  17 
- 26  27 
- 36  37 
-
-A * B (3x3):
- 373  396  419 
- 693  736  779 
-1013 1076 1139 
+![Решение задачи 1](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание1.png)
 ```
 
----
-
+```
 ## Задача 2: Упрощённый парсер JSON
 **Постановка задачи**  
 Написать функции для парсинга JSON-строки, представляющей набор параметров в формате ключ-значение (например, { "key1": "value1", "key2": 42 }). Входные данные: JSON-строка. Выходные данные: структура, содержащая массивы ключей и значений.
@@ -252,22 +230,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-JSON 1: { "title": "Book", "pages": 300, "price": 29.99 }
-Parsed 3 pairs:
-  title: Book
-  pages: 300
-  price: 29.99
+**Результат выполнения**
 
-JSON 2: { "cpu": "Intel", "ram": 16, "ssd": true }
-Parsed 3 pairs:
-  cpu: Intel
-  ram: 16
-  ssd: true
+![Решение задачи 2](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание2.png)
 ```
 
----
+```
 
 ## Задача 3: Решение систем линейных уравнений
 **Постановка задачи**  
@@ -393,30 +361,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-System 1:
-1x1 + 2x2 + 3x3 = 14
-4x1 + 5x2 + 6x3 = 32
-7x1 + 8x2 + 10x3 = 53
+**Результат выполнения**
 
-Solution:
-x1 = 1.00
-x2 = 2.00
-x3 = 3.00
-
-System 2:
-2x1 + 1x2 + 1x3 = 10
-1x1 + 3x2 + 2x3 = 15
-1x1 + 0x2 + 0x3 = 3
-
-Solution:
-x1 = 3.00
-x2 = 4.00
-x3 = 0.00
+![Решение задачи 3](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание3.png)
 ```
 
----
+```
 
 ## Задача 5: Чтение веб-страницы
 **Постановка задачи**  
@@ -500,36 +450,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-HTTP Client Simulation
-======================
+**Результат выполнения**
 
-URL: https://yandex.ru/search
-Headers:
-HTTP/1.1 200 OK
-Server: nginx
-
-Body (73 bytes):
-<html><body><h1>Yandex Search</h1><p>Welcome to Yandex</p></body></html>
-
-URL: https://vk.com/feed
-Headers:
-HTTP/1.1 200 OK
-Content-Type: text/html
-
-Body (92 bytes):
-<html><body><div>VK Social Network</div><p>News feed</p></body></html>
-
-URL: https://unknown.site/page
-Headers:
-HTTP/1.1 404 Not Found
-
-Body (55 bytes):
-<html><body><h1>Page not found</h1></body></html>
+![Решение задачи 5](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание5.png)
 ```
 
----
+```
 
 ## Задача 6: Сортировка и поиск в динамическом массиве
 **Постановка задачи**  
@@ -641,38 +567,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-Original:
-table: val=500, type=10
-chair: val=200, type=20
-lamp: val=150, type=30
-book: val=50, type=10
-phone: val=800, type=20
+**Результат выполнения**
 
-Sorted by name:
-book: val=50, type=10
-chair: val=200, type=20
-lamp: val=150, type=30
-phone: val=800, type=20
-table: val=500, type=10
-
-Search:
-Found: lamp, val=150, type=30
-Desk not found
-
-Sorted by value:
-book: val=50, type=10
-lamp: val=150, type=30
-chair: val=200, type=20
-table: val=500, type=10
-phone: val=800, type=20
-
-Linear search for value=200:
-Found: chair, val=200, type=20
+![Решение задачи 6](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание6.png)
 ```
 
----
+```
 
 ## Задача 7: Кэширование вычислений
 **Постановка задачи**  
@@ -767,42 +667,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-Fibonacci (with cache):
-F( 0) = 0
-F( 1) = 1
-F( 2) = 1
-F( 3) = 2
-F( 4) = 3
-F( 5) = 5
-F( 6) = 8
-F( 7) = 13
-F( 8) = 21
-F( 9) = 34
-F(10) = 55
-F(11) = 89
-F(12) = 144
-F(13) = 233
-F(14) = 377
-F(15) = 610
+**Результат выполнения**
 
-Compare:
-F(35) cached: 9227465
-F(35) simple: 9227465
-
-F(45) cached: 1134903170
-F(45) simple: 1134903170
-
-Cache values:
-cache[10]: F(10)=55
-cache[20]: F(20)=6765
-cache[30]: F(30)=832040
-cache[40]: F(40)=102334155
-cache[45]: F(45)=1134903170
+![Решение задачи 7](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание7.png)
 ```
 
----
+```
 
 ## Задача 8: Преобразование текста
 **Постановка задачи**  
@@ -916,50 +786,13 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-Text 1: "programming"
-Char | Count | Freq
------|-------|------
-  'r' |     2 | 0.1818
-  'g' |     2 | 0.1818
-  'm' |     2 | 0.1818
-  'p' |     1 | 0.0909
-  'o' |     1 | 0.0909
-  'a' |     1 | 0.0909
-  'i' |     1 | 0.0909
-  'n' |     1 | 0.0909
+**Результат выполнения**
 
-Text 2: "mississippi"
-Char | Count | Freq
------|-------|------
-  'i' |     4 | 0.3636
-  's' |     4 | 0.3636
-  'p' |     2 | 0.1818
-  'm' |     1 | 0.0909
-
-Text 3: "ABC abc 123 !!!"
-Char | Count | Freq
------|-------|------
-  ' ' |     3 | 0.1875
-  '!' |     3 | 0.1875
-  'A' |     1 | 0.0625
-  'B' |     1 | 0.0625
-  'C' |     1 | 0.0625
-  'a' |     1 | 0.0625
-  'b' |     1 | 0.0625
-  'c' |     1 | 0.0625
-  '1' |     1 | 0.0625
-  '2' |     1 | 0.0625
-  '3' |     1 | 0.0625
-
-Stats for Text 2:
-Total chars: 11
-Unique chars: 4
-Entropy: 1.3322
+![Решение задачи 8](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание8.1.png)
+![Решение задачи 8](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание8.2.png)
 ```
 
----
+```
 
 ## Задача 9: Упаковка и распаковка данных
 **Постановка задачи**  
@@ -1101,51 +934,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-Original:
-ID | Name                     | Price
----|--------------------------|------
- 1 | Laptop                   | 999.99
- 2 | Mouse                    | 25.50
- 3 | Keyboard                 | 75.00
- 4 | Monitor                  | 299.99
- 5 | USB Cable                | 9.99
+**Результат выполнения**
 
-Saved 5 products to products.dat
-Loaded 5 products from products.dat
-
-Loaded:
-ID | Name                     | Price
----|--------------------------|------
- 1 | Laptop                   | 999.99
- 2 | Mouse                    | 25.50
- 3 | Keyboard                 | 75.00
- 4 | Monitor                  | 299.99
- 5 | USB Cable                | 9.99
-
-Data check: OK
-
-Updated and saved again
-Saved 5 products to products_updated.dat
-Loaded 5 products from products_updated.dat
-
-Modified:
-ID | Name                     | Price
----|--------------------------|------
- 1 | Gaming Laptop            | 1099.99
- 2 | Mouse                    | 25.50
- 3 | Keyboard                 | 75.00
- 4 | Monitor                  | 299.99
- 5 | USB Cable                | 9.99
-
-Test empty:
-Saved 0 products to empty.dat
-Loaded 0 products from empty.dat
-Loaded 0 empty records
+![Решение задачи 9](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание9.png)
 ```
 
----
+```
 
 ## Задача 10: Генерация изображений
 **Постановка задачи**  
@@ -1280,26 +1074,12 @@ int main() {
 }
 ```
 
-**Результаты выполненной работы**
-```
-Generating images (200x150)
-Saved to grad.ppm (200x150)
-Saved to noise.ppm (200x150)
-Saved to stripes.ppm (200x150)
-Saved to small.ppm (100x100)
+**Результат выполнения**
 
-Files created:
-1. grad.ppm    - цветной градиент
-2. noise.ppm   - случайный шум
-3. stripes.ppm - полосы RGB
-4. small.ppm   - маленький градиент 100x100
-
-File sizes:
-200x150: header + 90000 bytes data
-100x100: header + 30000 bytes data
+![Решение задачи 10](https://raw.githubusercontent.com/elizabethivanova2412/Lab_4_Ivanova_Elizaveta/main/задание10.png)
 ```
 
----
+```
 
 ## Информация о студенте
 Иванова Елизавета, 1 курс, ПОО
